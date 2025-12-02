@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+ruby "3.3.7"
+
+gem "sinatra"
+gem "puma"
+gem "rackup"
+gem "faraday"
+gem "dotenv"
