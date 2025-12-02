@@ -5,8 +5,8 @@ info:
   description: |
     Lightweight proxy that normalizes Jira Cloud issues for consumption by a Custom GPT Action.
 servers:
-  - url: https://{{YOUR_DEPLOYED_HOST}}
-    description: Production server
+  - url: https://shanika-ungeared-red.ngrok-free.dev
+    description: Temporary tunnel for external access
   - url: http://localhost:4567
     description: Local development server
 components:
